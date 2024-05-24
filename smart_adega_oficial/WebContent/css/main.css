@@ -1,0 +1,860 @@
+@font-face {
+	font-family: titulo;
+	src: url(../fontes/Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+	font-family: rodape;
+	src: url(../fontes/Architects_Daughter/ArchitectsDaughter-Regular.ttf);
+}
+
+@font-face {
+	font-family: forma;
+	src: url(../fontes/Dancing_Script/DancingScript-Regular.ttf);
+}
+
+body {
+	background: #E6E6E6;
+	width: 1515px;
+	height: 690px;
+	border: 0px red solid;
+}
+
+.titulo {
+	font-family: "titulo";
+	font-size: 50px;
+	color: #610B21;
+	background: -webkit-gradient(linear, left top, left bottom, from(#E6E6E6),
+		to(#7D3030));
+	background: -moz-linear-gradient(top, #CCCCCC, #000000);
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,
+		StartColorStr='#CCCCCC', EndColorStr='#000000');
+	position: absolute;
+	left: 600px;
+	top: 30px;
+	border: 0px red solid;
+	background-color: #FFFFFF;
+	border: 10px #FFFFFF groove;
+}
+
+.corpo {
+	position: absolute;
+	left: 180px;
+	top: 150px;
+	border: 0px red solid;
+	width: 1100px;
+	height: 400px;
+}
+
+.rodape {
+	position: absolute;
+	left: 8px;
+	top: 675px;
+	border: 0px red solid;
+	width: 1515px;
+	height: 8px;
+	background-color: #D1CD14;
+	padding-top: 20px;
+}
+
+.letreirorodape {
+	font-family: "rodape";
+	font-size: 15px;
+	color: #073912;
+	position: absolute;
+	left: 550px;
+	top: -15px;
+	border: 0px red solid;
+	width: 800px;
+	height: 8px;
+	padding-top: 20px;
+}
+
+.creditos {
+	font-family: "rodape";
+	font-size: 15px;
+	color: #073912;
+	position: absolute;
+	left: 1250px;
+	top: -15px;
+	border: 0px red solid;
+	width: 260px;
+	height: 8px;
+	padding-top: 20px;
+}
+
+#imagemlogin {
+	border: 0px red solid;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	left: 0px;
+	top: -1px;
+}
+
+#imagem {
+	width: 500px;
+	height: 398px;
+	border: 0px red solid;
+}
+
+#formulariologin {
+	border: 0px red solid;
+	width: 600px;
+	height: 398px;
+	position: relative;
+	left: 501px;
+	top: -201px;
+	background: #FFFFFF;
+}
+
+#account {
+	font-family: "titulo";
+	font-size: 35px;
+	padding-left: 210px;
+	position: relative;
+	top: 60px;
+	left: -45px;
+	border: 0px red solid;
+}
+
+#entradaemail {
+	font-family: "titulo";
+	font-size: 32px;
+	border: 1px red solid;
+	border-color: #E6E6E6;
+	position: relative;
+	top: 100px;
+	left: 20px;
+	padding-left: 15px;
+	width: 250px;
+	height: 50px;
+}
+
+#entradasenha {
+	font-family: "titulo";
+	font-size: 32px;
+	border: 1px red solid;
+	border-color: #E6E6E6;
+	position: relative;
+	top: 100px;
+	left: 20px;
+	padding-left: 15px;
+	width: 250px;
+	height: 50px;
+}
+
+#signin {
+	position: relative;
+	top: 150px;
+	padding-left: 7px;
+	font-size: 40px;
+	font-family: "titulo";
+	background: #272356;
+	color: #FFFFFF;
+	border: 0px red solid;
+}
+
+#botao {
+	position: relative;
+	left: 200px;
+}
+
+#forgot {
+	position: relative;
+	top: 50px;
+	left: 430px;
+	font-size: 20px;
+	border: 0px red solid;
+	width: 150px;
+	height: 30px;
+}
+
+#botaoesqueci {
+	text-decoration: none;
+}
+
+#signup {
+	position: relative;
+	top: 150px;
+	left: 225px;
+	font-family: "titulo";
+	font-size: 30px;
+}
+
+#botaoentrar {
+	text-decoration: none;
+}
+
+#botaoindexgerenciador {
+	border: 0px red solid;
+	width: 700px;
+	height: 600px;
+	position: relative;
+	left: 352px;
+	top: 147px;
+}
+
+#botaoindexmonitor {
+	border: 0px red solid;
+	width: 700px;
+	height: 600px;
+	position: relative;
+	left: 1051px;
+	top: -453px;
+}
+
+#alinhamentobotaoindex {
+	width: 700px;
+	height: 600px;
+	font-family: "titulo";
+	font-size: 40px;
+}
+
+#link {
+	width: 70px;
+	height: 60px;
+	font-family: "titulo";
+	color: #7B5C5C;
+	font-size: 40px;
+	position: fixed;
+	left: 1050px;
+	top: 620px;
+	text-decoration: none;
+	border: 0px red solid;
+}
+
+#subtitulo {
+	font-family: "titulo";
+	font-size: 90px;
+	color: #610B21;
+	border: 0px red solid;
+	margin: 30px auto;
+	padding-left: 670px;
+}
+
+#subtitulomonitor {
+	font-family: "titulo";
+	font-size: 40px;
+	color: #610B21;
+	position: absolute;
+	left: 680px;
+	top: 150px;
+	border: 0px red solid;
+}
+
+.tipoletra {
+	width: 70px;
+	height: 60px;
+	font-family: "forma";
+	color: #1C247A;
+	font-size: 50px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	left: 50px;
+	top: 50px;
+	border: 0px red solid;
+}
+
+.radio {
+	width: 300px;
+	height: 100px;
+	font-family: "rodape";
+	font-size: 20px;
+	position: absolute;
+	left: 1000px;
+	top: 240px;
+	border: 0px red solid;
+}
+
+.radiobotao {
+	width: 50px;
+	height: 30px;
+	font-family: "titulo";
+	font-size: 0px;
+	position: relative;
+	left: 0px;
+	top: 10px;
+	border: 1px red solid;
+}
+
+.rodapegerenciadortipos {
+	font-family: "rodape";
+	font-size: 50px;
+	color: #073912;
+	padding-left: 800px;
+	padding-top: 1500px;
+	border: 0px red solid;
+	position: relative;
+}
+
+.rodapegerenciadorbebidas {
+	font-family: "rodape";
+	font-size: 50px;
+	color: #073912;
+	padding-left: 800px;
+	padding-top: 1200px;
+	border: 0px red solid;
+	position: relative;
+}
+
+#tipos {
+	width: 350px;
+	height: 30px;
+	font-family: "titulo";
+	font-size: 25px;
+	position: relative;
+	left: 200px;
+	top: 180px;
+	border: 0px red solid;
+}
+
+.tabela1 {
+	width: 550px;
+	height: 250px;
+	font-family: "titulo";
+	font-size: 30px;
+	position: absolute;
+	left: -100px;
+	top: -150px;
+	border-collapse: collapse;
+	overflow-y: auto;
+	display: block;
+}
+
+.tabela2 {
+	width: 500px;
+	height: 170px;
+	font-family: "titulo";
+	font-size: 20px;
+	position: absolute;
+	left: 0px;
+	top: -40px;
+	border-collapse: collapse;
+	overflow-y: auto;
+	display: block;
+}
+
+.tabela3 {
+	width: 580px;
+	height: 170px;
+	font-family: "titulo";
+	font-size: 20px;
+	position: absolute;
+	left: -200px;
+	top: -250px;
+	border-collapse: collapse;
+	overflow-y: auto;
+	display: block;
+}
+
+.botaocadastrar1 {
+	font-family: "rodape";
+	font-size: 70px;
+	width: 500px;
+	height: 100px;
+	position: relative;
+	left: 1157px;
+	top: 1180px;
+}
+
+.botaocadastrar2 {
+	font-family: "rodape";
+	font-size: 30px;
+	width: 300px;
+	height: 50px;
+	position: absolute;
+	left: 167px;
+	top: 498px;
+}
+
+.botaovoltar1 {
+	font-family: "rodape";
+	font-size: 70px;
+	width: 500px;
+	height: 100px;
+	position: relative;
+	left: 1400px;
+	top: 1250px;
+}
+
+.botaoconsumir {
+	font-family: "rodape";
+	font-size: 70px;
+	width: 400px;
+	height: 100px;
+	position: relative;
+	left: 1583px;
+	top: 420px;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.botaoconsumido {
+	font-family: "rodape";
+	font-size: 70px;
+	width: 400px;
+	height: 100px;
+	position: relative;
+	left: 1583px;
+	top: 420px;
+}
+
+#ligar1 {
+	width: 230px;
+	height: 50px;
+	font-family: "rodape";
+	font-size: 16px;
+	position: absolute;
+	left: 1150px;
+	top: 200px;
+}
+
+#desligar1 {
+	width: 230px;
+	height: 50px;
+	font-family: "rodape";
+	font-size: 16px;
+	position: absolute;
+	left: 1150px;
+	top: 300px;
+}
+
+#botaovoltar5 {
+	font-family: "rodape";
+	font-size: 20px;
+	width: 100px;
+	height: 50px;
+	position: relative;
+	left: 1200px;
+	top: -90px;
+	border: 0px solid red;
+}
+
+#imagemicone1 {
+	width: 30px;
+	height: 30px;
+	left: 3px;
+	top: 0px;
+	position: relative;
+	border: 0px solid red;
+}
+
+#imagemicone2 {
+	width: 30px;
+	height: 30px;
+	border: 0px solid red;
+	left: 0px;
+}
+
+#imagemicone3 {
+	width: 30px;
+	height: 30px;
+	border: 0px solid red;
+}
+
+#botaoicone11 {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 500px;
+	top: 600px;
+}
+
+#botaoicone21 {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 1273px;
+	top: 700px;
+}
+
+#botaoicone31 {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 1168px;
+	top: 842px;
+}
+
+#botaoicone12 {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 1343px;
+	top: 848px;
+}
+
+#botaoicone22 {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 1337px;
+	top: 848px;
+}
+
+#botaoicone32 {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 1331px;
+	top: 848px;
+}
+
+#botaoicone13 {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 1030px;
+	top: 947px;
+}
+
+#botaoicone23 {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 1024px;
+	top: 947px;
+}
+
+#botaoicone33 {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 1017px;
+	top: 947px;
+}
+
+.ordemicones {
+	position: relative;
+	left: -674px;
+	top: -530px;
+}
+
+#selecaotipo {
+	position: relative;
+	left: 280px;
+	top: 150px;
+	font-size: 25px;
+	font-family: "titulo";
+}
+
+#selo {
+	position: relative;
+	left: 530px;
+	top: 110px;
+	font-size: 35px;
+	font-family: "forma";
+	background-color: #F2F603;
+	box-shadow: 4px 4px black;
+	border: 0px solid black;
+	width: 160px;
+	height: 40px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#selo2 {
+	position: relative;
+	left: 1350px;
+	top: 70px;
+	font-size: 30px;
+	font-family: "forma";
+	background-color: #F2F603;
+	width: 700px;
+	height: 600px;
+	border: 4px solid black;
+}
+
+.number {
+	width: 700px;
+	height: 300px;
+	font-family: "titulo";
+	font-size: 25px;
+	position: absolute;
+	left: 600px;
+	top: 240px;
+	border: 0px solid red;
+}
+
+.numberbotao1 {
+	width: 70px;
+	height: 30px;
+	font-family: "titulo";
+	font-size: 25px;
+	position: relative;
+	left: 0px;
+	top: 10px;
+	border: 1px solid black;
+	padding-left: 10px;
+}
+
+.numberbotao2 {
+	width: 70px;
+	height: 30px;
+	font-family: "titulo";
+	font-size: 25px;
+	position: relative;
+	left: 0px;
+	top: 10px;
+	border: 1px solid black;
+	padding-left: 10px;
+}
+
+#tiposmonitor {
+	width: 200px;
+	height: 30px;
+	font-family: "titulo";
+	font-size: 25px;
+	position: relative;
+	left: 130px;
+	top: 280px;
+	border: 0px solid red;
+}
+
+#selecaotipomonitor {
+	position: relative;
+	left: 340px;
+	top: 245px;
+	font-size: 25px;
+	font-family: "titulo";
+}
+
+.ligardesligar {
+	width: 400px;
+	height: 100px;
+	font-family: "rodape";
+	font-size: 50px;
+	position: absolute;
+	left: 100px;
+	top: 220px;
+	border: 0px solid red;
+}
+
+#botaoligaradega {
+	font-family: "titulo";
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 190px;
+	top: 150px;
+}
+
+#botaodesligaradega {
+	font-family: "titulo";
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 300px;
+	top: 150px;
+}
+
+#temperaturaatual {
+	width: 350px;
+	height: 50px;
+	font-family: "titulo";
+	font-size: 30px;
+	position: relative;
+	left: 1150px;
+	top: 50px;
+	border: 0px red solid;
+}
+
+#grafico {
+	position: relative;
+	left: 670px;
+	top: 160px;
+	width: 500px;
+	height: 300px;
+	border: 0px red solid;
+}
+
+#tabelamonitor {
+	position: absolute;
+	left: 150px;
+	top: 550px;
+	width: 0px;
+	height: 0px;
+}
+
+#tabelabebidas {
+	position: absolute;
+	left: 150px;
+	top: 350px;
+	width: 400px;
+	height: 100px;
+	border: 0px red solid;
+}
+
+#tabelatipos {
+	position: absolute;
+	left: 250px;
+	top: 550px;
+	width: 800px;
+	height: 100px;
+	border: 0px red solid;
+}
+
+#subtitulogerenciador {
+	font-family: "titulo";
+	font-size: 40px;
+	color: #610B21;
+	position: absolute;
+	left: 620px;
+	top: 150px;
+	border: 0px red solid;
+}
+
+#botaoicone1 {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 1340px;
+	top: 850px;
+}
+
+#botaoicone2 {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 1236px;
+	top: 970px;
+}
+
+#botaoicone3 {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 1332px;
+	top: 730px;
+}
+
+.botaocadastrar3 {
+	font-family: "rodape";
+	font-size: 30px;
+	width: 300px;
+	height: 50px;
+	position: absolute;
+	left: 167px;
+	top: 498px;
+}
+
+.botaocadastrar4 {
+	font-family: "rodape";
+	font-size: 30px;
+	width: 300px;
+	height: 50px;
+	position: fixed;
+	left: 167px;
+	top: 598px;
+}
+
+.botaovoltar4 {
+	font-family: "rodape";
+	font-size: 30px;
+	width: 300px;
+	height: 50px;
+	position: fixed;
+	left: 1008px;
+	top: 468px;
+}
+
+#botaovoltar10 {
+	font-family: "rodape";
+	font-size: 30px;
+	width: 300px;
+	height: 50px;
+	position: absolute;
+	left: 1008px;
+	top: 468px;
+	padding-top: 0px;
+}
+
+#botaocadastrar10 {
+	font-family: "rodape";
+	font-size: 30px;
+	width: 300px;
+	height: 50px;
+	position: relative;
+	left: 159px;
+	top: 263px;
+}
+
+#botaocadastrar4 {
+	font-family: "rodape";
+	font-size: 30px;
+	width: 300px;
+	height: 50px;
+	position: fixed;
+	left: 159px;
+	top: 350px;
+}
+
+#formulariotipo {
+	font-family: "titulo";
+	font-size: 20px;
+	width: 200px;
+	height: 0px;
+	position: fixed;
+	left: 700px;
+	top: 300px;
+	border: 0px red solid;
+	text-align: center;
+}
+
+#formulariotipo1 {
+	font-family: "titulo";
+	font-size: 20px;
+	width: 200px;
+	height: 0px;
+	position: fixed;
+	left: 700px;
+	top: 300px;
+	border: 0px red solid;
+	text-align: center;
+}
+
+
+#formulariotipo2 {
+	font-family: "titulo";
+	font-size: 20px;
+	width: 200px;
+	height: 0px;
+	position: fixed;
+	left: 700px;
+	top: 300px;
+	border: 0px red solid;
+	text-align: center;
+}
+
+.botoestabela {
+	border: none;
+	background: trasparent;
+	width: 40px;
+	height: 50px;
+	border: none;
+	left: 100px;
+	top: 100px;
+	background-color: #E6E6E6;
+	cursor: pointer;
+}
+
+.bordas {
+	border-left: none;
+	border-right: none;
+}
+
+.cancelar{
+	font-family: "titulo";
+	font-size: 20px;
+	width: 200px;
+	height: 50px;
+	position: fixed;
+	left: 700px;
+	top: 600px;
+	border: 1px black solid;
+	border-radius:20px;
+	box-shadow: 10px 10px 10px 5px black;
+	
+}

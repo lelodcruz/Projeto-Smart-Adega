@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Monitor</title>
+		<meta charset="utf-8" />
+		
+		<link rel="stylesheet" href="css/main.css">
+
+		
+		
+
+	</head>
+
+	<body>
+		<div>
+			<div class="titulo">SMART ADEGA</div>
+			<div id="subtitulomonitor">[MONITOR]</div>
+		</div>	
+		
+		<div class="tipoletra">
+			ADEGA
+		</div>
+
+		<div id="tiposmonitor">
+			TIPO NA ADEGA:
+		</div>
+
+		<div>
+			<select class="selecaotipomonitor">
+				<option>Cerveja</option>
+				<option>Espumante</option>
+				<option>Vinho Branco</option>
+				<option>Whisky</option>
+			</select>
+		</div>
+
+		<div >
+			<button id="botaoligaradega">LIGAR ADEGA</button>
+			<button id="botaodesligaradega">DESLIGAR ADEGA</button>
+		</div>	
+
+		<div class="number">
+		Temp. de serviço: <input class="numberbotao1" type="number" value="5.00"/>  <br/>
+		Tolerância: <input class="numberbotao2" type="number" value="5.00" min="2.00"/>  <br/>
+	    </div>
+
+		<div id="temperaturaatual">
+			TEMPERATURA ATUAL:
+		</div>
+
+		<div>
+			<span id="selo2">
+				29,59°C
+			</span>
+		</div>
+
+		<div id="tabelamonitor">
+			<table class="tabela1" border="1">
+				<tr align="center">
+					<td>Quantidade</td>
+					<td>Marca</td>
+					<td>Origem</td>
+					<td>Nome</td>
+				</tr>
+				<tr align="center">
+					<td>1</td>
+					<td>Skol</td>
+					<td>Brasil</td>
+					<td>Skol Hots</td>
+				</tr>	
+				<tr align="center">
+					<td>3</td>
+					<td>Amstel</td>
+					<td>Holanda</td>
+					<td>Amstelzinha</td>
+					</tr>	
+				<tr align="center">
+					<td>5</td>
+					<td>Brahma</td>
+					<td>Brasil</td>
+					<td>Brahma Extra</td>
+				</tr>	
+	
+			</table>
+		</div>
+
+		<div id="grafico">
+			<canvas class="line-chart"></canvas>
+			<script src="vendor/chartjs/Chart.min.js"></script>
+			<script>
+				var ctx = document.getElementsByClassName("line-chart");
+				var chartGraph = new Chart(ctx, {
+					type: 'line',
+					data: {
+						labels: ["10s","20s","30s","40s","50s","60s","70s","80s","90s","100s","110s","120s"],
+						datasets: [
+							{
+								label: "TEMPERATURA",
+								data: [5,10,5,14,20,15,6,14,8,12,15,5,10,30],
+								borderWidth: 3,
+								borderColor: 'rgba(77,166,253,0.85)',
+								backgroundColor: 'transparent',
+							},
+							{
+								label: "MÍNIMO",
+								data: [12,12,12,12,12,12,12,12,12,12,12,12,12,12],
+								borderWidth: 3,
+								borderColor: 'green',
+								backgroundColor: 'transparent',
+							},
+							{
+								label: "MÁXIMO",
+								data: [20,20,20,20,20,20,20,20,20,20,20,20,20,20],
+								borderWidth: 3,
+								borderColor: 'red',
+								backgroundColor: 'transparent',
+							},
+		
+						]
+					},
+					options: {
+						title: {
+							display: true,
+							fontSize: 20,
+							text: "HISTÓRICO DA TEMPERATURA",
+							fontFamily: "titulo",	
+						},
+						legend: {
+							display: true,
+						},
+						scales: {
+            				xAxes: [{
+                				ticks: {
+                					fontSize: 15,
+                				},
+            				}],
+            				yAxes: [{
+                				ticks: {
+                					fontSize: 15,
+                				},
+            				}]
+       					}
+					}		
+				});
+			</script>
+		</div>
+
+		<div class="ligardesligar">
+			<button id="ligar1">CADASTRAR BEBIDAS</button>
+			<button id="desligar1">CADASTRAR TIPOS</button>
+		</div>
+
+		<div class="rodape">
+			<div class="letreirorodape">
+			<strong>A PRODUCT OF DREAMSFACTORY® COMPANY</strong>
+			</div>
+			<div class="creditos">
+			<strong>Produced by Aurélio Domingues Cruz</strong>
+			</div>		
+		</div>
+
+	</body>
+
+
+</html>
