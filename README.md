@@ -9,4 +9,5 @@ Java;
 PHP;
 JSP;
 HTML;
-CSS.
+CSS;
+JQuery.
