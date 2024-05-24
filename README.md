@@ -7,4 +7,6 @@ Arduino;
 MySQL;
 Java;
 PHP;
-JSP.
+JSP;
+HTML;
+CSS.
