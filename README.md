@@ -8,6 +8,6 @@ MySQL;
 Java;
 PHP;
 JSP;
-HTML;
-CSS;
+HTML5;
+CSS3;
 JQuery.
